@@ -1,0 +1,47 @@
+.BookList {
+    text-align: center;
+    padding: 20px;
+}
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    justify-items: center;
+    margin-top: 20px; 
+}
+
+.button-container {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.book {
+    width: 100%; 
+    border-radius: 8px;
+    padding: 10px;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.edit {
+    background-color: green;
+}
+
+button.delete {
+    background-color: red;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
